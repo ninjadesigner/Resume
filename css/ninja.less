@@ -1,0 +1,59 @@
+// Varibales   
+@black-color:#000;
+@white-color:#fff;
+@theme-color: #000;
+@dark-theme-color:  darken(@theme-color, 5%);
+@light-theme-color: lighten(@theme-color, 10%);
+// Reuseable code 
+.hover{
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.border-radius(@value){
+    border-radius: @value;
+    -webkit-border-radius: @value;
+    -moz-border-radius: @value;
+    -ms-border-radius: @value;
+    -o-border-radius: @value;
+}
+.box-sizing{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+//Basic code
+.list-style-none{
+    list-style: none;
+}
+.decoration-none{
+    text-decoration: none;
+}
+body{
+    font-family: "Rubik";
+    font-weight: normal;
+}
+.img-responsive{
+    width: 100%;
+}
+*{
+    padding:0;
+    margin:0
+}
+.d-flex{display: flex;}
+.d-block{display: block;}
+.d-inline-block{display: inline-block;}
+.position-relative{position: relative;}
+.container{
+    max-width: 1100px;
+    padding: 0 15px;
+    margin:auto;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
